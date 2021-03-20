@@ -11,19 +11,20 @@
 
     <ImageView
         android:id="@+id/instagram_logo"
-        android:layout_width="match_parent"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
         android:layout_height="wrap_content"
-        tools:srcCompat="@drawable/icon" />
+        android:background="@drawable/icon" />
 
     <ImageView
         android:id="@+id/logo"
-        android:layout_width="match_parent"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
         android:layout_height="wrap_content"
-        tools:srcCompat="@drawable/nav_logo_whiteout" />
+        android:background="@drawable/nav_logo_whiteout" />
 
     <EditText
         android:id="@+id/etUsername"
-        android:layout_marginStart="@+id/logo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
